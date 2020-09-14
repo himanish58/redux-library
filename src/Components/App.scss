@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 16px;
+
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 16px;
+
+		input {
+			padding: 8px 16px;
+			width: 300px;
+		}
+	}
+
+	.books-container {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 16px 0;
+
+		.book {
+			padding: 16px;
+			margin: 16px;
+			width: 250px;
+			border: 1px solid teal;
+
+			.row {
+				margin: 16px 0;
+
+				.title {
+					font-weight: bold;
+				}
+			}
+
+			.edit-btn {
+				background-color: transparent;
+				border: 1px solid teal;
+				color: teal;
+				padding: 5px 10px;
+			}
+		}
+	}
+
+	.add-book {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 200px;
+		width: 200px;
+		border: 1px dashed teal;
+		color: teal;
+		margin-left: 16px;
+		cursor: pointer;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 300px;
+		padding: 16px;
+		border: 1px dashed teal;
+		margin-left: 16px;
+
+		.row {
+			margin: 16px 0;
+
+			.label {
+				font-weight: bold;
+			}
+		}
+
+		input {
+			margin: 16px 0;
+			padding: 4px 8px;
+			width: 280px;
+		}
+
+		.btn-section {
+			display: flex;
+			justify-content: center;
+
+			button {
+				padding: 8px 16px;
+				margin: 16px 16px 16px 0;
+			}
+			.cancel-btn {
+				background-color: transparent;
+				border: 1px solid teal;
+				color: teal;
+			}
+
+			.submit-btn {
+				background-color: teal;
+				border: none;
+				color: white;
+			}
+		}
+	}
+}
